@@ -8,7 +8,7 @@ function App() {
   //count == variable we want to use is state = 0; & setCount is function name
 
   const [count, setCount] = useState(0);
-  //console.log(useState(0));
+  console.log(useState(0));
 
   function handleAdd (){
     /*count += 1;
