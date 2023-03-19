@@ -9,6 +9,10 @@ function App() {
     { id: 3, name: "Attend Meetings", completed: false },
   ]);
 
+  //Now giving the condition to show or not the tasks
+
+  const [show, setShow] = useState (false); //Here I can give it to True-all task will be visible
+
   function handleDelete(id){
     //console.log(id);
     setTasks(tasks.filter(task => task.id !== id));
@@ -18,7 +22,8 @@ function App() {
     <>
       <h1>Task List</h1>
       <ul>
-        {tasks.map((task) => (
+        <button onClick={() => setShow(!show)}>Toggle</button>
+        {show && tasks.map((task) => (
           <li key={task.id}>
             <span>{task.id} - {task.name}</span>
             <button onClick={() => handleDelete(task.id)}>Delete</button>
