@@ -1,4 +1,4 @@
-//BAsic Without using React Power
+//BAsic Without using React Power.
 
 import {useState} from 'react';
 
@@ -27,7 +27,7 @@ return (
     
 )
 
-//By using react Power
+//By using react Power.
 
 function App(){
     //defining the useState 
