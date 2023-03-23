@@ -3,11 +3,11 @@ import './App.css';
 import Books from './Components/Books';
 
 function App() {
-  const arr = ['a', 'b', 'c', 'd', 'e'];
+  const arr = ['a', 'b', 'c', 'd', 'e', 'f'];
 
   return (
     <>
-      <Books arr = {arr}/>
+      <Books arrName = {arr}/>
     </>
   );
 }

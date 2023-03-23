@@ -1,7 +1,7 @@
 const Books = (props) => {
   return (
     <>
-      <h1>Title = {props.arr}</h1>
+      <h1>Title = {props.arrName}</h1>
     </>
   )
 }
