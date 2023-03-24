@@ -22,7 +22,14 @@ const ProductList = () => {
 
   return (
     <>
-      <p>Product-Lists</p>
+      <section>
+        <p>Product-Lists</p>
+        {products.map((product) => (
+
+          <p>{product.name}</p>
+
+        ))}
+      </section>
     </>
   );
 };
