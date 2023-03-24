@@ -1,0 +1,17 @@
+{
+    "products" : [{
+        "id" : "10001",
+        "name" : "My name is Lovkush",
+        "price" : 29,
+        "in_stock" : true
+    }]
+}
+
+{
+    "products" : [{
+        "id" : "10002",
+        "name" : "My name is Lovkush",
+        "price" : 29,
+        "in_stock" : true
+    }]
+}
