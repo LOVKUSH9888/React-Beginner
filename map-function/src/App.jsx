@@ -11,7 +11,7 @@ function App() {
           <li>population: {item.population}</li>
         </ul>
       ))}
-
+{/*Till Chapter -7 all clear */}
       {employees.map((identifier)=>{
         return (
           <ul key = {identifier.id}>
