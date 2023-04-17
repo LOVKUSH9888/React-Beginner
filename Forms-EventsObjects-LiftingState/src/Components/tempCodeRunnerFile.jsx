@@ -1,0 +1,1 @@
+console.log('Name: ${Name}, password: ${Password}');
