@@ -4,9 +4,17 @@ import './App.css'
 function App() {
   const [student, setStudent] = useState({
     name : "Lovkush",
-    age : 22,
+    age : "22",
     degree : "Btech in CSE"
   })
+
+  function handleData(){
+    setStudent({
+      name : "Vinod",
+      age : "22",
+      degree : "BA"
+    })
+  }
 
   return (
     <>
@@ -14,6 +22,7 @@ function App() {
       <h2>Name = {student.name}</h2>
       <h3>Age = {student.age}</h3>
       <p>Degree = {student.degree}</p>
+      <button onClick={handleData}>Click Me</button>
     </>
   )
 }
