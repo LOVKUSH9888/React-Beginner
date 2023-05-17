@@ -7,3 +7,6 @@ and components can access this store to get or update the state.
 Redux Toolkit -> is a set of tools that simplifies the process of writing Redux code. 
 It includes utilities to help reduce boilerplate code and make it easier to work with Redux.
 
+
+Revision - 17.5.23
+
