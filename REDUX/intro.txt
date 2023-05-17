@@ -1,4 +1,6 @@
-Redux => is a state management library that helps manage the state of your React application. 
+Redux => is a state management library -> its stop Prop Drilling
+
+ that helps manage the state of your React application. 
 It provides a centralized store where all the application state is stored, 
 and components can access this store to get or update the state.
 
