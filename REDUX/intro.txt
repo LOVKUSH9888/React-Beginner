@@ -1,6 +1,6 @@
 Redux => is a state management library -> its stop Prop Drilling
 
- that helps manage the state of your React application. 
+ hat helps manage the state of your React application. 
 It provides a centralized store where all the application state is stored, 
 and components can access this store to get or update the state.
 
@@ -11,4 +11,6 @@ It includes utilities to help reduce boilerplate code and make it easier to work
 
 
 Revision - 17.5.23
+Working On projects - 23.5.23
+
 
