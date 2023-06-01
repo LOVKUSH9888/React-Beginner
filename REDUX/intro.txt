@@ -1,6 +1,6 @@
 Redux => is a state management library -> its stop Prop Drilling
 
- hat helps manage the state of your React application. 
+That helps manage the state of your React application. 
 It provides a centralized store where all the application state is stored, 
 and components can access this store to get or update the state.
 
@@ -10,7 +10,14 @@ Redux Toolkit -> is a set of tools that simplifies the process of writing Redux 
 It includes utilities to help reduce boilerplate code and make it easier to work with Redux.
 
 
-Revision - 17.5.23
+Revision - 17.5.23 = For IDEA-CLAN interview = 18th may
 Working On projects - 23.5.23
+
+
+//Revising JavaScript + react+ redux for = AVI Software interview = 3 june 2023 
+
+
+
+
 
 
