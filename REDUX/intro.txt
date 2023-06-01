@@ -15,7 +15,9 @@ Working On projects - 23.5.23
 
 
 //Revising JavaScript + react+ redux for = AVI Software interview = 3 june 2023 
-
+JavaScript = https://www.interviewbit.com/javascript-interview-questions/
+React = https://www.interviewbit.com/react-interview-questions/
+Mern = https://www.fullstack.cafe/blog/mern-stack-interview-questions
 
 
 
