@@ -20,6 +20,12 @@ React = https://www.interviewbit.com/react-interview-questions/
 Mern = https://www.fullstack.cafe/blog/mern-stack-interview-questions
 
 
+//Revision
+For AVI SOFTWARE SOLUTIONS = 5.6.23
+ & 
+ Regius Technologies Pvt. Ltd. = 6.6.23
+ 
+
 
 
 
