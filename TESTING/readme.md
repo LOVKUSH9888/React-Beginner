@@ -14,3 +14,20 @@ To test the react App :-
 ✅Intigrating testing  = testing how different units or components of a software application interact with each other. Combining Unit testing
 
 ✅E2E (end to end) testing.
+
+
+#####
+Folder name = __test__
+1. xxx.test.js
+
+
+2. Example :-
+
+import {render} from "@teting-library/react";
+import {counter} from "../Counter";
+
+test("render the textarea". () => {
+    console.log(render(<Counter/>));
+})
+
+3. npm test
