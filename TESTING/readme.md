@@ -33,3 +33,14 @@ test("render the textarea". () => {
 3. npm test
 
 
+***toBeTruthy***
+
+
+//***It OR test is same***
+
+test OR it ("rebder the char result", ()=> {  
+    const {getBytestId} = render(<Counter?>);
+})
+
+//***Instead Accessing components from By ID access it by screen = screen,getBytestId("wordLengh")***
+
