@@ -26,4 +26,5 @@ return (
 //Worked on freelancing Project
 
 //Given interview- idesign tech = GFailed = axios fetch data and map that.
+//Learning ES6 concepts
 
