@@ -2,11 +2,19 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+
   const [data, setData] = useState({
     username : "",
     email : "",
     password : ""
   });
+
+  // Making a useState for userAuth that user is valid or not
+  // By default we have set it as False -
+
+  const[inputIsValid, setInputIsValid] = useState("")
+
+
 
   function handleChange(event) {
     
@@ -19,6 +27,14 @@ function App() {
     event.preventDefault();
     console.log(`name is ${username} & password is ${password}`)
 
+    // Adding Validatio = When input is empty then no submission shown :-
+    if(userInput.trim().length === 0){
+      // User auth logic
+      setInputIsValid(false)
+      return
+    }
+    console.log("submit handler called", data, setData);
+    setData("") // for setting it to empty again 
   }
 
   return (
